@@ -14,7 +14,7 @@
 
 ## Chrome Web Store
 
-    https://chrome.google.com/webstore/detail/pubnub-console-2/lheeeennaibflmlobegogdphfhdgbobl
+[PubNub Console 2](https://chrome.google.com/webstore/detail/pubnub-console-2/lheeeennaibflmlobegogdphfhdgbobl)
 
 ## Description
 
