@@ -1,0 +1,235 @@
+@media (prefers-color-scheme: light) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    color: rgb(48, 57, 66);
+  }
+}
+@media (prefers-color-scheme: dark) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 11px;
+    color: rgb(204, 204, 204);
+  }
+}
+body {
+  font-family: "Droid Sans", "Lucida Grande", sans-serif;
+}
+h2 {
+  border-bottom: 1px solid #ddd;
+  display: block;
+  height: 22px;
+  line-height: 23px;
+  padding-left: 5px;
+}
+ul, ol {
+  list-style-type: none;
+}
+#channels-wrapper {
+  position: fixed;
+  left: 0%;
+  width: 25%;
+  background-color: #efefef;
+  overflow: scroll;
+  height: 100%;
+  border-right: 1px solid #bcbcbc;
+  z-index: 2;
+}
+#channels-wrapper h2 {
+  border-bottom: 1px solid #bcbcbc;
+  color: rgb(48, 57, 66);
+}
+#channels-wrapper .channel {
+  border-bottom: 1px solid #bcbcbc;
+  border-top: 1px solid #fff;
+  box-shadow: 0px -1px 3px #ccc;
+  position: relative;
+  height: 17px;
+}
+#channels-wrapper .channel .name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 10px;
+  color: #333;
+  position: absolute;
+  top: 3px;
+  padding-left: 5px;
+  left: 0px;
+  z-index: 5;
+  width: 100%;
+  padding-right: 61px;
+  box-sizing: border-box;
+}
+#channels-wrapper .channel .sparky {
+  position: absolute;
+  bottom: 1px;
+  height: 15px;
+  right: 1px;
+}
+#channels-wrapper .channel:hover {
+  cursor: pointer;
+}
+#channels-wrapper .channel:hover .name {
+  text-decoration: underline;
+}
+#channels-wrapper .channel.active {
+  background-color: #E2E2E2;
+  color: #000;
+}
+#consoles-wrapper {
+}
+.lines {
+  position: fixed;
+  left: 25%;
+  width: 75%;
+  bottom: 0px;
+  word-wrap: break-word;
+  overflow-y: scroll;
+  font-size: 12px;
+  font-family: "Droid Sans Mono";
+}
+.lines li {
+  padding: 4px;
+  border-bottom: 1px solid #efefef;
+  position: relative;
+  white-space: pre;
+}
+.lines li .notes {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  font-size: 10px;
+  color: #ccc;
+}
+.lines li .notes:before {
+  margin-right: 4px;
+  font-size: 9px;
+}
+.lines li.publish .notes:before {
+  content: "Publish";
+  color: #a91c23;
+}
+.lines li.subscribe .notes:before {
+  content: "Subscribe";
+  color: #3394bf;
+}
+.lines li.history .notes:before {
+  content: "History";
+  color: #ddd;
+}
+.lines li.presence .notes:before {
+  content: "Presence";
+  color: #ddd;
+}
+.tools {
+  position: fixed;
+  top: 0px;
+  border-bottom: 1px solid #bcbcbc;
+  background-color: #efefef;
+  font-size: 12px;
+  height: 22px;
+  line-height: 23px;
+  width: 75%;
+  left: 25%;
+}
+.tools .tool {
+  display: inline-block;
+  margin-left: 8px;
+  margin-right: 12px;
+  font-size: 10px;
+  color: rgb(48, 57, 66);
+}
+.tools .tool i {
+  margin-right: 5px;
+}
+.tools .tool.disabled {
+  color: #ccc;
+}
+.tools a.tool {
+  text-decoration: none;
+}
+.tools a.tool:hover {
+  text-decoration: underline;
+}
+.tools .tool.disabled:hover {
+  text-decoration: none;
+  cursor: initial;
+}
+@media (prefers-color-scheme: dark) {
+  .json-key {
+    color: #ccc;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .json-key {
+    color: #111;
+  }
+}
+
+.json-value {
+  color: #a91c23;
+}
+.json-string {
+  color: #3394bf;
+}
+
+.hide {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+.logo {
+  display: block;
+  position: absolute;
+  right: 6px;
+  top: 4px;
+}
+.logo:hover img {
+  opacity: 1;
+}
+.logo img {
+  width: 64px;
+  opacity: .9;
+}
+#off {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 100;
+}
+#off .message {
+  height: 35px;
+  line-height: 35px;
+  color: #222;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-family: "Lucida Grande", sans-serif;
+}
+#loading {
+  position: absolute;
+  top: 50%;
+  margin-top: -13px;
+  width: 25px;
+  height: 26px;
+  left: 50%;
+  margin-left: -13px;
+}
+#loading img {
+  float: left;
+  margin-right: 5px;
+}
+.fa {
+  color: rgb(48, 57, 66);
+}

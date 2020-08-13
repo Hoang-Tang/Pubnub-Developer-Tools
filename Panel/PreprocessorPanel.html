@@ -1,0 +1,25 @@
+<head>
+	<link rel="stylesheet" href="font-awesome.min.css">
+	<link rel='stylesheet' href="PreprocessorPanel.css">
+	<script src="pubnub.4.28.2.min.js"></script>
+	<script src="jquery.js"></script>
+	<script type="text/javascript" src="sparklines.js"></script>
+</head>
+<body>
+	<div id="on">
+		<div id="channels-wrapper">
+			<h2>Channels</h2>
+			<ul id="channels"></ul>
+		</div>
+		<div id="consoles-wrapper">
+			<div id="consoles"></div>
+		</div>
+	</div>
+	<div id="off">
+		<div id="loading">
+			<img src="loader.gif" class="loader" />
+		</div>
+		<div class="message">Waiting for PubNub traffic...</div>
+	</div>
+	<script src="PreprocessorPanel.js"></script>
+</body>
