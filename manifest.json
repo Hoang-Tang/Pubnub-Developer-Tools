@@ -1,9 +1,9 @@
 {
-  "name": "PubNub Console 2",
-  "version": "2.0.1",
+  "name": "PubNub Developer Tools",
+  "version": "1.0.0",
   "description": "Monitor PubNub traffic filtered by channel.  Support PubNub version 4.xx.x",
   "devtools_page": "chrome-preprocessor.html",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "icons": {
     "16": "16.png",
     "48": "48.png",
