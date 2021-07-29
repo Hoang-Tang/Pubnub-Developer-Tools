@@ -1,8 +1,8 @@
-# PubNub Console Chrome Extension
+# PubNub Developer Tools Chrome Extension
 
 ## Clone repository
 
-    git clone https://github.com/Hoang-Tang/Pubnub-Console.git
+    git clone https://github.com/Hoang-Tang/Pubnub-Developer-Tools.git
     
 ## Load the unpacked extension
 
@@ -14,7 +14,7 @@
 
 ## Chrome Web Store
 
-[PubNub Console 2](https://chrome.google.com/webstore/detail/pubnub-console-2/lheeeennaibflmlobegogdphfhdgbobl)
+[PubNub Developer Tools](https://chrome.google.com/webstore/detail/pubnub-console-2/lheeeennaibflmlobegogdphfhdgbobl)
 
 ## Description
 
