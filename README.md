@@ -1,8 +1,4 @@
 # PubNub Developer Tools Chrome Extension
-
-## Clone repository
-
-    git clone https://github.com/Hoang-Tang/Pubnub-Developer-Tools.git
     
 ## Load the unpacked extension
 
