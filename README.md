@@ -1,5 +1,10 @@
 # PubNub Developer Tools Chrome Extension
-    
+
+
+## Chrome Web Store
+
+[PubNub Developer Tools](https://chrome.google.com/webstore/detail/pubnub-developer-tools/kglbkappffohjoeblapemhfpanglfnbj)
+
 ## Load the unpacked extension
 
 1. In Chrome, open chrome://extensions/
@@ -7,10 +12,6 @@
 3. Click Load unpacked extension…
 4. Navigate to the extension’s folder and click OK
 5. Delete the (extracted) folder (the extension have copied) 
-
-## Chrome Web Store
-
-[PubNub Developer Tools](https://chrome.google.com/webstore/detail/pubnub-console-2/lheeeennaibflmlobegogdphfhdgbobl)
 
 ## Description
 
