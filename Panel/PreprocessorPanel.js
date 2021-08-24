@@ -277,7 +277,7 @@
 
       parser.href = request.request.url;
 
-      if(parser.hostname.split('.')[1] === 'pndsn') {
+      if(parser.hostname.split('.')[1] === 'pndsn' || parser.hostname.split('.')[1] === 'pubnub') {
         params = parser.pathname.split('/');
 
         if(params[1] === 'publish') {
